@@ -47,3 +47,14 @@ digits = '0123456789'
 # that stores the substring '9630'
 x = digits[::-3]
 print(x)
+
+# String Methods
+language ='$Python$$'
+message = 'I love Python!'
+
+# YOUR CODE STARTS HERE:
+language1 = language.strip('$')
+language2 = language1.lower()
+message1 = message.upper()
+message2 = message.replace('Python', 'Java')
+print(language2 + " " + language1 + " " + message2 + " " + message1)
