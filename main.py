@@ -33,5 +33,17 @@ print(s3)
 
 
 
+my_str = 'eth0:192.168.122.1'
 
+# YOUR CODE STARTS HERE
+# using string slicing, create a variable called my_interface
+# that stores the substring 'eth0'
+my_interface = my_str[0:4]
+print(my_interface)
 
+digits = '0123456789'
+# #YOUR CODE STARTS HERE
+# using string slicing, create a variable called x
+# that stores the substring '9630'
+x = digits[::-3]
+print(x)
